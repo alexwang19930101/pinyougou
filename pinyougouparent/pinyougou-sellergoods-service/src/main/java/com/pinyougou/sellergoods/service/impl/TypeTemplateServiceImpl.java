@@ -39,7 +39,7 @@ public class TypeTemplateServiceImpl implements TypeTemplateService {
 	public PageResult findPage(int pageNum, int pageSize) {
 		PageHelper.startPage(pageNum, pageSize);		
 		Page<TbTypeTemplate> page=   (Page<TbTypeTemplate>) typeTemplateMapper.selectByExample(null);
-		return new PageResult(page.getTotal(), new ArrayList<>(page.getResult()));
+		return new PageResult(page.getTotal(), page.getResult());
 	}
 
 	/**
@@ -61,8 +61,8 @@ public class TypeTemplateServiceImpl implements TypeTemplateService {
 	
 	/**
 	 * 根据ID获取实体
-	 * @param id
-	 * @return
+	 * @param id 类型模版id
+	 * @return 类型模版
 	 */
 	@Override
 	public TbTypeTemplate findOne(Long id){
