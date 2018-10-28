@@ -2,10 +2,10 @@
 <html>
 
 <head>
-    <!-- “≥√Êmeta -->
-    <meta charset="GBK">
+    <!-- È°µÈù¢meta -->
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>πÊ∏Òπ‹¿Ì</title>
+    <title>ËßÑÊ†ºÁÆ°ÁêÜ</title>
     <meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" name="viewport">
     <link rel="stylesheet" href="../plugins/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="../plugins/adminLTE/css/AdminLTE.css">
@@ -16,10 +16,10 @@
 
 	<script type="text/javascript" src="../plugins/angularjs/angular.min.js"></script>
 
-	<!-- ∑÷“≥◊Èº˛ø™ º -->
+	<!-- ÂàÜÈ°µÁªÑ‰ª∂ÂºÄÂßã -->
 	<script src="../plugins/angularjs/pagination.js"></script>
 	<link rel="stylesheet" href="../plugins/angularjs/pagination.css">
-	<!-- ∑÷“≥◊Èº˛Ω· ¯ -->
+	<!-- ÂàÜÈ°µÁªÑ‰ª∂ÁªìÊùü -->
 
 	<script type="text/javascript" src="../js/base_pagination.js" ></script>
 	<script type="text/javascript" src="../js/service/specificationService.js" ></script>
@@ -31,40 +31,40 @@
 <body class="hold-transition skin-red sidebar-mini" ng-app="pinyougou" ng-controller="specificationController">
   <!-- .box-body -->                
                     <div class="box-header with-border">
-                        <h3 class="box-title">πÊ∏Òπ‹¿Ì</h3>
+                        <h3 class="box-title">ËßÑÊ†ºÁÆ°ÁêÜ</h3>
                     </div>
                     <div class="box-body">
-                        <!--  ˝æ›±Ì∏Ò -->
+                        <!-- Êï∞ÊçÆË°®Ê†º -->
                         <div class="table-box">
 
-                            <!--π§æﬂ¿∏-->
+                            <!--Â∑•ÂÖ∑Ê†è-->
                             <div class="pull-left">
                                 <div class="form-group form-inline">
                                     <div class="btn-group">
-                                        <button type="button" class="btn btn-default" title="–¬Ω®" data-toggle="modal" data-target="#editModal" ng-click="entity={specification:{},specificationOptionList:[]}" ><i class="fa fa-file-o"></i> –¬Ω®</button>
-                                        <button type="button" class="btn btn-default" title="…æ≥˝" ng-click="dele()"><i class="fa fa-trash-o"></i> …æ≥˝</button>
+                                        <button type="button" class="btn btn-default" title="Êñ∞Âª∫" data-toggle="modal" data-target="#editModal" ng-click="entity={specification:{},specificationOptionList:[]}" ><i class="fa fa-file-o"></i> Êñ∞Âª∫</button>
+                                        <button type="button" class="btn btn-default" title="Âà†Èô§" ng-click="dele()"><i class="fa fa-trash-o"></i> Âà†Èô§</button>
                                         
-                                        <button type="button" class="btn btn-default" title="À¢–¬" onclick="window.location.reload();"><i class="fa fa-refresh"></i> À¢–¬</button>
+                                        <button type="button" class="btn btn-default" title="Âà∑Êñ∞" onclick="window.location.reload();"><i class="fa fa-refresh"></i> Âà∑Êñ∞</button>
                                     </div>
                                 </div>
                             </div>
                             <div class="box-tools pull-right">
                                 <div class="has-feedback">
-							                    πÊ∏Ò√˚≥∆£∫<input  >									
-									<button class="btn btn-default" >≤È—Ø</button>                                    
+							                    ËßÑÊ†ºÂêçÁß∞Ôºö<input  >									
+									<button class="btn btn-default" >Êü•ËØ¢</button>                                    
                                 </div>
                             </div>
-                            <!--π§æﬂ¿∏/-->
-			                  <!-- ˝æ›¡–±Ì-->
+                            <!--Â∑•ÂÖ∑Ê†è/-->
+			                  <!--Êï∞ÊçÆÂàóË°®-->
 			                  <table id="dataList" class="table table-bordered table-striped table-hover dataTable">
 			                      <thead>
 			                          <tr>
 			                              <th class="" style="padding-right:0px">
 			                                  <input id="selall" type="checkbox" class="icheckbox_square-blue">
 			                              </th> 
-										  <th class="sorting_asc">πÊ∏ÒID</th>
-									      <th class="sorting">πÊ∏Ò√˚≥∆</th>									     												
-					                      <th class="text-center">≤Ÿ◊˜</th>
+										  <th class="sorting_asc">ËßÑÊ†ºID</th>
+									      <th class="sorting">ËßÑÊ†ºÂêçÁß∞</th>									     												
+					                      <th class="text-center">Êìç‰Ωú</th>
 			                          </tr>
 			                      </thead>
 			                      <tbody>
@@ -73,40 +73,40 @@
 				                          <td>{{entity.id}}</td>
 									      <td>{{entity.specName}}</td>
 		                                  <td class="text-center">                                           
-		                                 	  <button type="button" class="btn bg-olive btn-xs" data-toggle="modal" data-target="#editModal" ng-click="findOne(entity.id)">–ﬁ∏ƒ</button>
+		                                 	  <button type="button" class="btn bg-olive btn-xs" data-toggle="modal" data-target="#editModal" ng-click="findOne(entity.id)">‰øÆÊîπ</button>
 		                                  </td>
 			                          </tr>
 			                      </tbody>
 			                  </table>
-			                  <!-- ˝æ›¡–±Ì/-->
-							  <!-- ∑÷“≥ -->
+			                  <!--Êï∞ÊçÆÂàóË°®/-->
+							  <!-- ÂàÜÈ°µ -->
 							  <tm-pagination conf="paginationConf"></tm-pagination>
                         </div>
-                        <!--  ˝æ›±Ì∏Ò /--> 
+                        <!-- Êï∞ÊçÆË°®Ê†º /--> 
                      </div>
                     <!-- /.box-body -->                    
 	          		    
                                 
-<!-- ±‡º≠¥∞ø⁄ -->
+<!-- ÁºñËæëÁ™óÂè£ -->
 <div class="modal fade" id="editModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-dialog" >
 	<div class="modal-content">
 		<div class="modal-header">
-			<button type="button" class="close" data-dismiss="modal" aria-hidden="true">°¡</button>
-			<h3 id="myModalLabel">πÊ∏Ò±‡º≠</h3>
+			<button type="button" class="close" data-dismiss="modal" aria-hidden="true">√ó</button>
+			<h3 id="myModalLabel">ËßÑÊ†ºÁºñËæë</h3>
 		</div>
 		<div class="modal-body">							
 			
 			<table class="table table-bordered table-striped"  width="800px">
 		      	<tr>
-		      		<td>πÊ∏Ò√˚≥∆</td>
-		      		<td><input  class="form-control" placeholder="πÊ∏Ò√˚≥∆" ng-model="entity.specification.specName">  </td>
+		      		<td>ËßÑÊ†ºÂêçÁß∞</td>
+		      		<td><input  class="form-control" placeholder="ËßÑÊ†ºÂêçÁß∞" ng-model="entity.specification.specName">  </td>
 		      	</tr>
 			 </table>				
 			 
-			 <!-- πÊ∏Ò—°œÓ -->
+			 <!-- ËßÑÊ†ºÈÄâÈ°π -->
 			 <div class="btn-group">
-                  <button type="button" class="btn btn-default" title="–¬Ω®" ng-click="addTableRow()"><i class="fa fa-file-o"></i> –¬‘ˆπÊ∏Ò—°œÓ</button>
+                  <button type="button" class="btn btn-default" title="Êñ∞Âª∫" ng-click="addTableRow()"><i class="fa fa-file-o"></i> Êñ∞Â¢ûËßÑÊ†ºÈÄâÈ°π</button>
                   
              </div>
 			 
@@ -115,21 +115,21 @@
                         <tr>
                           
 					 
-				      <th class="sorting">πÊ∏Ò—°œÓ</th>
-				      <th class="sorting">≈≈–Ú</th>																
-                      <th class="sorting">≤Ÿ◊˜</th>	
+				      <th class="sorting">ËßÑÊ†ºÈÄâÈ°π</th>
+				      <th class="sorting">ÊéíÂ∫è</th>																
+                      <th class="sorting">Êìç‰Ωú</th>	
                     </thead>
                     <tbody>
                       <tr  ng-repeat="specificationOption in entity.specificationOptionList">
                            
 				            <td>
-				            	<input  class="form-control" placeholder="πÊ∏Ò—°œÓ" ng-model="specificationOption.optionName">
+				            	<input  class="form-control" placeholder="ËßÑÊ†ºÈÄâÈ°π" ng-model="specificationOption.optionName">
 				            </td>
 				            <td>
-				            	<input  class="form-control" placeholder="≈≈–Ú" ng-model="specificationOption.orders">
+				            	<input  class="form-control" placeholder="ÊéíÂ∫è" ng-model="specificationOption.orders">
 				            </td>
 							<td>
-								<button type="button" class="btn btn-default" title="…æ≥˝" ng-click="deleTabRow($index)"><i class="fa fa-trash-o"></i> …æ≥˝</button>
+								<button type="button" class="btn btn-default" title="Âà†Èô§" ng-click="deleTabRow($index)"><i class="fa fa-trash-o"></i> Âà†Èô§</button>
 							</td>
                       </tr>
                     </tbody>
@@ -138,8 +138,8 @@
 			
 		</div>
 		<div class="modal-footer">						
-			<button class="btn btn-success" data-dismiss="modal" aria-hidden="true" ng-click="save()">±£¥Ê</button>
-			<button class="btn btn-default" data-dismiss="modal" aria-hidden="true">πÿ±’</button>
+			<button class="btn btn-success" data-dismiss="modal" aria-hidden="true" ng-click="save()">‰øùÂ≠ò</button>
+			<button class="btn btn-default" data-dismiss="modal" aria-hidden="true">ÂÖ≥Èó≠</button>
 		</div>
 	  </div>
 	</div>
