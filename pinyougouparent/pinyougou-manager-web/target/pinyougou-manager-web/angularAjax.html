@@ -1,0 +1,38 @@
+<html>
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<head>
+	<meta charset="utf-8" />
+	<title>入门小 Demo-8 内置服务</title>
+	<script src="angular.min.js"></script>
+	<script>
+		var app=angular.module('myApp',[]); //定义了一个叫 myApp 的模块
+		//定义控制器
+		app.controller('myController',function($scope,$http){
+			$scope.findAll=function(){
+				$http.get('http://localhost:8080/brand/findAll.do').success(
+					function(response){
+						$scope.list=response;
+					} 
+				);
+			} 
+		});
+	</script>
+</head>
+<body ng-app="myApp" ng-controller="myController" ng-init="findAll()">
+	<table>
+		<tr>
+			<td>firstChar</td>
+			<td>id</td>
+			<td>name</td>
+		</tr>
+		<tr ng-repeat="brand in list">
+			<td>{{brand.firstChar}}</td>
+			<td>{{brand.id}}</td>
+			<td>{{brand.name}}</td>
+		</tr>
+	</table>
+</body>
+</html>
