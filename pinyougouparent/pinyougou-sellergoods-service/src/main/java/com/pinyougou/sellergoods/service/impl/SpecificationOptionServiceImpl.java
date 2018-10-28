@@ -39,7 +39,7 @@ public class SpecificationOptionServiceImpl implements SpecificationOptionServic
 	public PageResult findPage(int pageNum, int pageSize) {
 		PageHelper.startPage(pageNum, pageSize);		
 		Page<TbSpecificationOption> page = (Page<TbSpecificationOption>) specificationOptionMapper.selectByExample(null);
-		return new PageResult(page.getTotal(), new ArrayList<>(page.getResult()));
+		return new PageResult(page.getTotal(), page.getResult());
 	}
 
 	/**
@@ -61,8 +61,8 @@ public class SpecificationOptionServiceImpl implements SpecificationOptionServic
 	
 	/**
 	 * 根据ID获取实体
-	 * @param id
-	 * @return
+	 * @param id 规格选项id
+	 * @return 规格选项
 	 */
 	@Override
 	public TbSpecificationOption findOne(Long id){

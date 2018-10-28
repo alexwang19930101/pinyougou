@@ -47,7 +47,7 @@ public class SpecificationServiceImpl implements SpecificationService {
 	public PageResult findPage(int pageNum, int pageSize) {
 		PageHelper.startPage(pageNum, pageSize);		
 		Page<TbSpecification> page=   (Page<TbSpecification>) specificationMapper.selectByExample(null);
-		return new PageResult(page.getTotal(), new ArrayList<>(page.getResult()));
+		return new PageResult(page.getTotal(), page.getResult());
 	}
 
 	/**
@@ -91,8 +91,8 @@ public class SpecificationServiceImpl implements SpecificationService {
 	
 	/**
 	 * 根据ID获取实体
-	 * @param id
-	 * @return
+	 * @param id 规格id
+	 * @return 规格
 	 */
 	@Override
 	public Specification findOne(Long id){

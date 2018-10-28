@@ -13,6 +13,7 @@
     <file url="file://$PROJECT_DIR$/pinyougou-sellergoods-interface" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/pinyougou-sellergoods-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/pinyougou-shop-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pinyougou-shop-web/src/main/webapp/js/angular-select2.js" charset="GBK" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>
