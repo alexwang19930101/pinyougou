@@ -1,3 +1,5 @@
 com\pinyougou\shop\controller\SellerController.class
 com\pinyougou\service\UserDetailServiceImpl.class
+com\pinyougou\shop\controller\ItemCatController.class
+com\pinyougou\shop\controller\TypeTemplateController.class
 com\pinyougou\shop\controller\GoodsController.class

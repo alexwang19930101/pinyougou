@@ -14,6 +14,7 @@ import java.util.List;
 
 public class UserDetailServiceImpl implements UserDetailsService {
 
+    //因为没有交给springMVC管理，这里采用配置注入
     private SellerService sellerService;
 
     public void setSellerService(SellerService sellerService) {

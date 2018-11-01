@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.pinyougou.AppTest" time="0.093" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.pinyougou.AppTest" time="0.103" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="CN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-9.0.4\bin"/>
-    <property name="sun.java.command" value="C:\Users\pinkill\AppData\Local\Temp\surefire9310472840336143920\surefirebooter16755131929735652941.jar C:\Users\pinkill\AppData\Local\Temp\surefire9310472840336143920 2018-10-28T18-56-16_993-jvmRun1 surefire17299839297346077275tmp surefire_115772072450771708221tmp"/>
+    <property name="sun.java.command" value="C:\Users\pinkill\AppData\Local\Temp\surefire17849868470436549638\surefirebooter10275675722589761999.jar C:\Users\pinkill\AppData\Local\Temp\surefire17849868470436549638 2018-11-01T09-36-09_571-jvmRun1 surefire8270481162432452923tmp surefire_07969225926588269760tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="E:\ideaworkspace\pinyougou\pinyougouparent\pinyougou-sellergoods-interface\target\test-classes;E:\ideaworkspace\pinyougou\pinyougouparent\pinyougou-sellergoods-interface\target\classes;E:\ideaworkspace\pinyougou\pinyougouparent\pinyougou-pojo\target\pinyougou-parent.jar;E:\Maven_repo\junit\junit\4.12\junit-4.12.jar;E:\Maven_repo\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -33,7 +33,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\pinkill\AppData\Local\Temp\surefire9310472840336143920\surefirebooter16755131929735652941.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\pinkill\AppData\Local\Temp\surefire17849868470436549638\surefirebooter10275675722589761999.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="9.0.4+11"/>
@@ -61,5 +61,5 @@
     <property name="maven.repo.local" value="E:\Maven_repo"/>
     <property name="java.class.version" value="53.0"/>
   </properties>
-  <testcase name="shouldAnswerWithTrue" classname="com.pinyougou.AppTest" time="0.002"/>
+  <testcase name="shouldAnswerWithTrue" classname="com.pinyougou.AppTest" time="0.003"/>
 </testsuite>

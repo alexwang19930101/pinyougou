@@ -19,6 +19,7 @@ import com.pinyougou.pojo.TbSpecificationExample.Criteria;
 import com.pinyougou.sellergoods.service.SpecificationService;
 
 import entity.PageResult;
+import org.springframework.transaction.annotation.Transactional;
 
 /**
  * 服务实现层
@@ -26,6 +27,7 @@ import entity.PageResult;
  *
  */
 @Service
+@Transactional
 public class SpecificationServiceImpl implements SpecificationService {
 
 	@Autowired
