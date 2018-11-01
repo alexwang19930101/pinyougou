@@ -15,8 +15,11 @@
         <module name="pinyougou-sellergoods-service" />
         <module name="pinyougou-shop-web" />
         <module name="pinyougoucommon" />
+        <module name="pinyougoucontentinterface" />
+        <module name="pinyougoucontentservice" />
         <module name="pinyougoudao" />
         <module name="pinyougoumanagerweb" />
+        <module name="pinyougouportalweb" />
         <module name="pinyougousellergoodsservice" />
         <module name="pinyougoushopweb" />
       </profile>
