@@ -20,8 +20,12 @@
         <module name="pinyougoudao" />
         <module name="pinyougoumanagerweb" />
         <module name="pinyougouportalweb" />
+        <module name="pinyougousearchinterface" />
+        <module name="pinyougousearchservice" />
+        <module name="pinyougousearchweb" />
         <module name="pinyougousellergoodsservice" />
         <module name="pinyougoushopweb" />
+        <module name="pinyougousolrutil" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8" />

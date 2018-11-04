@@ -67,6 +67,10 @@
             <groupId>org.springframework</groupId>
             <artifactId>spring-test</artifactId>
         </dependency>
+        <dependency>
+            <groupId>com.github.pagehelper</groupId>
+            <artifactId>pagehelper</artifactId>
+        </dependency>
         <!-- dubbo相关 -->
         <dependency>
             <groupId>com.alibaba</groupId>
@@ -156,7 +160,7 @@
                     <version>2.2</version>
                     <configuration>
                         <!-- 指定端口 -->
-                        <port>9003</port>
+                        <port>9102</port>
                         <!-- 请求路径 -->
                         <path>/</path>
                     </configuration>

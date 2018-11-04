@@ -4,7 +4,10 @@
 	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
 	version="2.5">	
 	
-	<!-- 加载spring容器 -->
+	<!--
+		加载spring容器
+		配置文件需要读取子工程的（否则无法找到jar包依赖注入扫描的包）
+	-->
 	<context-param>
 		<param-name>contextConfigLocation</param-name>
 		<param-value>classpath*:spring/applicationContext*.xml</param-value>
