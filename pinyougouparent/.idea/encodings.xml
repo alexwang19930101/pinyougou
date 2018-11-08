@@ -11,6 +11,9 @@
     <file url="file://$PROJECT_DIR$/pinyougou-manager-web/src/main/webapp/js/controller/typeTemplateController.js" charset="GBK" />
     <file url="file://$PROJECT_DIR$/pinyougou-manager-web/src/main/webapp/js/service/typeTemplateService.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/pinyougou-manager-web/src/main/webapp/plugins/angularjs/pagination.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pinyougou-page-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pinyougou-page-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pinyougou-page-web" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/pinyougou-pojo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/pinyougou-portal-web" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/pinyougou-search-interface" charset="UTF-8" />

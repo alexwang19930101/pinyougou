@@ -23,11 +23,12 @@
     </properties>
 
     <dependencies>
+        <!--由消息队列发送到search-service进行实现
         <dependency>
             <groupId>com.pinyougou</groupId>
             <artifactId>pinyougou-search-interface</artifactId>
             <version>1.0-SNAPSHOT</version>
-        </dependency>
+        </dependency>-->
         <dependency>
             <groupId>com.pinyougou</groupId>
             <artifactId>pinyougou-common</artifactId>
@@ -43,7 +44,18 @@
             <artifactId>pinyougou-sellergoods-interface</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
-
+        <!--由消息队列异步调用
+        <dependency>
+            <groupId>com.pinyougou</groupId>
+            <artifactId>pinyougou-page-interface</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>-->
+        <!-- 消息队列 -->
+        <dependency>
+            <groupId>org.apache.activemq</groupId>
+            <artifactId>activemq-client</artifactId>
+            <version>5.13.4</version>
+        </dependency>
         <!-- Spring -->
         <dependency>
             <groupId>org.springframework</groupId>

@@ -8,6 +8,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.data.solr.core.SolrTemplate;
+import org.springframework.data.solr.core.query.Query;
+import org.springframework.data.solr.core.query.SimpleQuery;
 import org.springframework.stereotype.Component;
 
 import java.util.List;
@@ -45,6 +47,11 @@ public class SolrUtil {
         ApplicationContext applicationContext = new ClassPathXmlApplicationContext(
                 "classpath*:**/application*.xml");
         SolrUtil solrUtil = applicationContext.getBean(SolrUtil.class);
-        solrUtil.importItemData();
+//        solrUtil.importItemData();//添加数据
+
+            //删除数据
+        Query query = new SimpleQuery("*:*");
+        solrUtil.solrTemplate.delete(query);
+        solrUtil.solrTemplate.commit();
     }
 }

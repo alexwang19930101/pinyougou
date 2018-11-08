@@ -14,7 +14,6 @@ import com.pinyougou.sellergoods.service.ItemCatService;
 
 import entity.PageResult;
 import org.springframework.data.redis.core.RedisTemplate;
-import org.springframework.data.solr.core.SolrTemplate;
 
 /**
  * 服务实现层

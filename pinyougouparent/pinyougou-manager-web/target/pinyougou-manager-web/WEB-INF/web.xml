@@ -43,7 +43,7 @@
 <!-- spring-security引入 -->
     <context-param>
         <param-name>contextConfigLocation</param-name>
-        <param-value>classpath:spring/spring-security.xml</param-value>
+        <param-value>classpath:spring/spring-*.xml</param-value>
     </context-param>
     <listener>
         <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
