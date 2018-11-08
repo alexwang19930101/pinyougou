@@ -1,0 +1,2 @@
+0:0:0:0:0:0:0:1 - - [05/Nov/2018:20:24:57 +0800] "GET /admin/goods.html HTTP/1.1" 404 983 http-bio-9002-exec-1 212
+0:0:0:0:0:0:0:1 - - [05/Nov/2018:20:24:57 +0800] "GET /favicon.ico HTTP/1.1" 404 973 http-bio-9002-exec-2 2

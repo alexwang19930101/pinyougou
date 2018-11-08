@@ -39,13 +39,13 @@ public class SmsUtil {
     static final String domain = "dysmsapi.aliyuncs.com";
 
     // TODO 此处需要替换成开发者自己的AK(在阿里云访问控制台寻找)
-    static final String accessKeyId = "LTAIvnv25020fKHf";
-    static final String accessKeySecret = "cmnnAsOaClfMYq79CQ9CB9h4UyJDVC";
+    //static final String accessKeyId = "LTAIvnv25020fKHf";
+    //static final String accessKeySecret = "cmnnAsOaClfMYq79CQ9CB9h4UyJDVC";
 
     public SendSmsResponse sendSms(String mobile,String template_code,
                                    String sign_name,String param) throws ClientException {
-        //String accessKeyId = environment.getProperty("accessKeyId");
-        //String accessKeySecret = environment.getProperty("accessKeySecret");
+        String accessKeyId = environment.getProperty("accessKeyId");
+        String accessKeySecret = environment.getProperty("accessKeySecret");
 
         //可自助调整超时时间
         System.setProperty("sun.net.client.defaultConnectTimeout", "10000");
