@@ -101,7 +101,7 @@
   <component name="MavenRunner">
     <option name="jreName" value="9" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="8" />
     <option name="y" value="171" />
     <option name="width" value="1704" />
@@ -269,12 +269,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1541664455467</updated>
-      <workItem from="1541664462148" duration="2630000" />
+      <workItem from="1541664462148" duration="3230000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2630000" />
+    <option name="totallyTimeSpent" value="3230000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="8" y="171" width="1704" height="952" extended-state="0" />
@@ -297,7 +297,7 @@
       <window_info id="Image Layers" />
       <window_info anchor="bottom" id="Java Enterprise" />
       <window_info anchor="right" id="Capture Analysis" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49938726" visible="true" weight="0.33727035" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49938726" weight="0.33727035" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
       <window_info anchor="bottom" id="Spring" />
       <window_info anchor="bottom" id="Terminal" />
@@ -448,7 +448,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited />
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.1.7</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
